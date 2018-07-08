@@ -1,0 +1,45 @@
+{
+	"bitfinex" : {
+		"BASE_URL" : "https://api.bitfinex.com/v1",
+		"BOOK_URL" : "/book/${SYMBOL}",
+		"ETH" : "ETHUSD",
+		"BTC" : "BTCUSD",
+		"BIDS" : "bids",
+		"ASKS" : "asks",
+		"RateLimit" : 60,
+		"Precision": 8
+	},
+
+	"huobi" : {
+		"BASE_URL" : "https://api.huobipro.com",
+		"BOOK_URL" : "/market/depth?symbol=${SYMBOL}t&type=step1",
+		"ETH" : "ETHUSD",
+		"BTC" : "BTCUSD",
+		"BIDS" : "bids",
+		"ASKS" : "asks",
+		"RateLimit" : 60,
+		"Precision": 8		
+	},
+
+	"quoine" : {
+		"BASE_URL" : "https://api.quoine.com",
+		"BOOK_URL" : "/products/${SYMBOL}/price_levels",
+		"ETH" : "27",
+		"BTC" : "1",
+		"BIDS" : "buy_price_levels",
+		"ASKS" : "sell_price_levels",
+		"RateLimit" : 60,
+		"Precision": 8
+	},
+
+	"kraken" : {
+		"BASE_URL" : "https://api.kraken.com",
+		"BOOK_URL" : "/0/public/Depth?pair=${SYMBOL}count=20",
+		"ETH" : "ethusd",
+		"BTC" : "btcusd",
+		"BIDS" : "bids",
+		"ASKS" : "asks",
+		"RateLimit" : 60,
+		"Precision": 8		
+	}
+}

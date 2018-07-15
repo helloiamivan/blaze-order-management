@@ -13,8 +13,8 @@
 	"huobi" : {
 		"BASE_URL" : "https://api.huobipro.com",
 		"BOOK_URL" : "/market/depth?symbol=${SYMBOL}t&type=step1",
-		"ETH" : "ETHUSD",
-		"BTC" : "BTCUSD",
+		"ETH" : "ethusd",
+		"BTC" : "btcusd",
 		"BIDS" : "bids",
 		"ASKS" : "asks",
 		"RateLimit" : 60,
@@ -34,9 +34,9 @@
 
 	"kraken" : {
 		"BASE_URL" : "https://api.kraken.com",
-		"BOOK_URL" : "/0/public/Depth?pair=${SYMBOL}count=20",
+		"BOOK_URL" : "/0/public/Depth?pair=${SYMBOL}",
 		"ETH" : "ethusd",
-		"BTC" : "btcusd",
+		"BTC" : "xbtusd",
 		"BIDS" : "bids",
 		"ASKS" : "asks",
 		"RateLimit" : 60,

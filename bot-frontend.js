@@ -6,7 +6,7 @@ const request = require('request');
 var fs = require('fs');
 
 // Bot Token
-const bot = new Telegraf('655584600:AAE5f29EyGlWmsBVn7LfloGaPGNpWu_mrVI')
+const bot = new Telegraf(BOT_API_KEY)
 
 // Mongo DB initialization
 var MongoClient = require('mongodb').MongoClient;

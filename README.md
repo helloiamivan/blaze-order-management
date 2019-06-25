@@ -4,3 +4,4 @@ Async query of traded crypto prices, persisted by MongoDB and exposed as a teleg
 
 Currently works for Bitfinex, Kraken, Huobi, Quonine
 
+Test me @ http://t.me/hikari_pricebot
